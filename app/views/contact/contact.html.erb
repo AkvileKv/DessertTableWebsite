@@ -1,0 +1,84 @@
+  <div id="page">
+  
+    <div id="menu-left">
+      <div class="sidenav">
+        <a href="services.html#vestuvems">Vestuvėms</a>
+        <a href="services.html#gimtadieniui">Gimtadieniui</a>
+        <a href="services.html#krikstynoms">Krikštynoms</a>
+      </div>
+    </div>
+
+    <div id="content">
+      <h2>SUSISIEKITE SU MUMIS</h2>
+
+      <div class="nice_div">
+        <form action="registracija.php" method="post" class="forma">
+          <fieldset>
+            <legend>Asmeninė informacija</legend>
+            <div class="div-info">
+              <label for=name class="title">Jūsų vardas: <span>*</span> </label>
+              <input type="text" name="vardas" required>
+            </div>
+            <div class="div-info">
+              <label for=surname class="title">Jūsų pavardė: <span>*</span></label>
+              <input type="text" name="pavarde" required>
+            </div>
+            <div class="div-info">
+              <label for=age class="title">Miestas: </label>
+              <input type="text" name="miestas" required>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Kontaktinė informacija</legend>
+            <div class="div-info">
+              <label for=elpastas class="title ">El. pašto adresas: <span>*</span></label>
+              <input class="inputbox" type="email" name="elpastas" required>
+            </div>
+
+            <div class="div-info">
+              <label for=telefonas class="title ">Telefono nr.: </label>
+              <input type="tel" name="telefonas" required>
+            </div>
+            <div class="radio-buttons div-info ">
+              <label class="title titleContactInf">Susisiekti telefonu: </label>
+              <input type="radio" name="taip/ne" value="t">
+              <label for="taip">Taip</label>
+              <input type="radio" name="taip/ne" value="n">
+              <label for="ne">Ne</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Papildoma informacija</legend>
+            <div class="div-info">
+              <label class="title" for="komentaras">Žinutės tekstas: </label>
+              <textarea name="comments" rows="4" cols="40"></textarea>
+            </div>
+            <div class="div-info centras">
+              <input type="checkbox" name="viesbutis" value="1">Naujienų prenumerata
+            </div>
+            <div class="div-info">
+              <label class="title" for="tema">Tematika:</label>
+              <select name="tema">
+                <option value="1">vestuvės</option>
+                <option value="2">gimtadienis</option>
+                <option value="3">krikštynos</option>
+                <option value="4">kita</option>
+              </select>
+            </div>
+          </fieldset>
+          <div class="div-info centras"><input type="submit" value="SIŲSTI"> <input type="reset" value="Išvalyti"></div>
+
+        </form>
+        <br>
+      </div>
+
+
+
+
+    </div>
+
+    <footer>
+      2020 &copy; Akvile Kvietkauskaite
+    </footer>
+  </div>

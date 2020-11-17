@@ -1,0 +1,252 @@
+html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Georgia, serif;
+    margin: 0;
+  }
+  
+  header, footer {
+    font-size: 15px;
+    color: #143a52;
+    text-align: center;
+    clear: both;
+    width: 100%;
+  }
+  
+  footer {
+    background-color: #FFF;
+    padding: 20px 0;
+  }
+  
+  #menu li {
+    display: inline-block;
+  }
+  
+  #page {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+   /* menu left */
+  
+  .sidenav {
+    float: left;
+    padding: 0 10px;
+    position: fixed;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 12%;
+  }
+  
+  .sidenav a {
+    display: block;
+    width: 140px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #143a52;
+  }
+  
+  .sidenav a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  /* content */
+  
+  #content {
+    float: right;
+    min-height: 550px;
+    padding: 0 15px;
+    width: 85%;
+  }
+  
+  #content h2 {
+    margin: 10px 0;
+  }
+  
+  /* horizontal bar*/
+  a:link,
+  a:visited {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #FFF;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding: 10px 5px;
+  }
+  
+  .topnav a {
+    color: #143a52;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .topnav a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .topnav a.active {
+    background-color: #e0dede;
+    color: white;
+  }
+  
+  #logo {
+    margin-right: auto;
+    padding: 15px;
+    color: #143a52;
+  }
+  
+  /* Anketa */
+  .div-info {
+    margin: 10px 50px 1px 1px;
+    padding: 7px;
+    width: 500px;
+  }
+  
+  .inputbox {
+    width: 235px;
+  }
+  
+  .title {
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding-right: 10px;
+  }
+  
+  /*------inherit: */
+  span {
+    color: #008891;
+    font-weight: bold;
+  }
+  
+  .div-info span {
+    color: inherit;
+    font-weight: inherit;
+  }
+  
+  /*----------------*/
+  .titleContactInf {
+    width: 140px;
+  }
+  
+  .forma {
+    width: 600px;
+    margin: auto;
+  }
+  
+  .centras {
+    text-align: center;
+    margin: auto;
+  }
+  
+  /* Paslaugos */
+  p {
+    text-align: justify !important;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  hr.double {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    text-align: center;
+    clear: both;
+  }
+  
+  hr.style:after {
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+  }
+  
+  hr.light {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    clear: both;
+  }
+  
+  .nice_div {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .nice_div ul {
+    list-style-type: circle;
+  }
+  
+  /* Paveikslai */
+  .table {
+    border: 3px double white;
+    float: right;
+    width: 450px;
+    height: 240px;
+    margin-bottom: 20px;
+    padding: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .tableAbout {
+    border: 3px double white;
+    padding: 1px;
+    width: 243px;
+    height: 350px;
+  }
+  
+  /* Lentelė */
+  table {
+    font-family: sans-serif;
+    border-width: 5px;
+    border-style: double;
+    background-color: transparent;
+  }
+  
+  /*-------palikuonys */
+  tr th {
+    color: #008891;
+  }
+  
+  /* ---------------- */
+  td, th {
+    text-align: center;
+    border-width: 1px;
+    border-style: dotted;
+    padding: 7px;
+  }
+  
+  .align {
+    vertical-align: bottom;
+    background-color: #e0dede;
+  }
+  
+  .grey {
+    background-color: #e0dede;
+  }
+  
